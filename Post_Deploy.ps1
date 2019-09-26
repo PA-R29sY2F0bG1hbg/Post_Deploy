@@ -1,14 +1,14 @@
-﻿#+-------------------------------------------------------------------+
+#+-------------------------------------------------------------------+
 #| = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = |
 #|{>/-------------------------------------------------------------\<}|
 #|: | Author:  Philippe-Alexandre Munch                           | :|
 #| :| Email:   --------------------------------                   |: |
 #|: | Purpose: Post_Deploy :)  in GUI Version                     | :|
 #| :|                                                             |: |
-#|: |                      						                  | :|
+#|: |                      					  | :|
 #| :|                                                             |: |
-#|: |         		Date:05-Jan-2018                              | :
-#|: |                            14:35                            |: |
+#|: |         		Date:05-Jan-2018                          | :|
+#|: |                                                 		  |: |
 #| :| 	/^(o.o)^\    Version: 1.7           	                  | :|
 #|{>\-------------------------------------------------------------/<}|
 #| = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = |
@@ -74,7 +74,7 @@ $form.text = "Post_Deploy"
 
 $Moremenue.Text = "More"
 
-# Dell Drivers
+# Call More 1
 $DriverDell.Text = "Software Call 1"
 $DriverDell.add_click({start 'C:\Deployement\More_Software_Call_1.txt'})
 
@@ -84,15 +84,15 @@ $DriverDell.add_click({start 'C:\Deployement\More_Software_Call_1.txt'})
 
 $Toolsmenue.Text = "Tools"
 
-# Call Creation user link
+# Call 1
 $Create_User.Text = "Software Call 1"
 $Create_User.add_click({start 'C:\Deployement\Software_Call_1.txt'})
 
-# Call Kaspersky exe
+# Call 2
 $kaspersky.text = "Software Call 2 "
 $kaspersky.add_click({start 'C:\Deployement\Software_Call_2.txt'})
 
-# Call Printer State
+# Call 3
 $Printer_State.Text = "Software Call 3"
 $Printer_State.add_click({start 'C:\Deployement\Software_Call_3.txt'})
 
