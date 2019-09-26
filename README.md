@@ -35,7 +35,7 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
 
   
    More Menue 
-   ----------
+   
 
    $Moremenue.Text = "More"
 
@@ -44,7 +44,7 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
    $DriverDell.add_click({start 'C:\Deployement\More_Software_Call_1.txt'})
 
    Tools Menue
-   -----------
+  
 
    $Toolsmenue.Text = "Tools"
 
