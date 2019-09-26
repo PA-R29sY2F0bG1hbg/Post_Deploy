@@ -37,6 +37,9 @@ INFO
    - Modify "Choco_Install_Apps" to add or delete application to install with chocolatey
             
    - Folder Structure as coded in the script:
+   
+   
+   
    ![Folder_Structure](https://user-images.githubusercontent.com/18190054/65708353-ae8d8980-e08e-11e9-9c0a-9ac5d9bf9095.png)
 
  
