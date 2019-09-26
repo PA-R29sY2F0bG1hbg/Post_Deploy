@@ -16,7 +16,7 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
 ----------------------------------------------------------------------------------------------------------------------------------------
    
    
-  \\  INFO : //
+  \\  INFO : /
    
    - For Completly running all function launch Post_Deploy as Administrator
    
@@ -26,16 +26,7 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
    - Folder Structure as coded in the script:
      ---------------------------------------
    
-   C:\
-   |
-   |Post_Deploy.Ps1
-   |
-   |Deployement
-   |-----------|
-               |
-               |Choco_Insall.cmd
-               |Choco_Install_Apps.cmd
-               |Choco_Update_All_Apps.cmd
+
     
  
 - Tools Menue:
