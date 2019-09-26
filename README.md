@@ -48,7 +48,7 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
 
    $Moremenue.Text = "More"
 
-   # Call More 1
+   *Call More 1
    $DriverDell.Text = "Software Call 1"
    $DriverDell.add_click({start 'C:\Deployement\More_Software_Call_1.txt'})
 
@@ -57,14 +57,14 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
 
    $Toolsmenue.Text = "Tools"
 
-   # Call 1
+   *Call 1
    $Create_User.Text = "Software Call 1"
    $Create_User.add_click({start 'C:\Deployement\Software_Call_1.txt'})
 
-   # Call 2
+   *Call 2
    $kaspersky.text = "Software Call 2 "
    $kaspersky.add_click({start 'C:\Deployement\Software_Call_2.txt'})
 
-   # Call 3
+   *Call 3
    $Printer_State.Text = "Software Call 3"
    $Printer_State.add_click({start 'C:\Deployement\Software_Call_3.txt'})
