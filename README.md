@@ -16,7 +16,7 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
 ----------------------------------------------------------------------------------------------------------------------------------------
    
    
-   # INFO :
+  \\  INFO : //
    
    - For Completly running all function launch Post_Deploy as Administrator
    
@@ -40,22 +40,31 @@ Post_Deploy is a Powershell GUI which aims to personalize a computer after a dep
  
 - Tools Menue:
 
-** For change the Call example juste change the path at line: 79, 89, 97 **
+   ** For change the Call example juste change the path at line: 79, 89, 93, 97 **
 
-###############
-# Tools Menue #
-###############
+  
+   More Menue 
+   ----------
 
-$Toolsmenue.Text = "Tools"
+   $Moremenue.Text = "More"
 
-# Call Creation user link
-$Create_User.Text = "Software Call 1"
-$Create_User.add_click({start 'C:\Deployement\Software_Call_1.txt'})
+   # Call More 1
+   $DriverDell.Text = "Software Call 1"
+   $DriverDell.add_click({start 'C:\Deployement\More_Software_Call_1.txt'})
 
-# Call Kaspersky exe
-$kaspersky.text = "Software Call 2 "
-$kaspersky.add_click({start 'C:\Deployement\Software_Call_2.txt'})
+   Tools Menue
+   -----------
 
-# Call Printer State
-$Printer_State.Text = "Software Call 3"
-$Printer_State.add_click({start 'C:\Deployement\Software_Call_3.txt'})
+   $Toolsmenue.Text = "Tools"
+
+   # Call 1
+   $Create_User.Text = "Software Call 1"
+   $Create_User.add_click({start 'C:\Deployement\Software_Call_1.txt'})
+
+   # Call 2
+   $kaspersky.text = "Software Call 2 "
+   $kaspersky.add_click({start 'C:\Deployement\Software_Call_2.txt'})
+
+   # Call 3
+   $Printer_State.Text = "Software Call 3"
+   $Printer_State.add_click({start 'C:\Deployement\Software_Call_3.txt'})
