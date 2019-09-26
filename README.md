@@ -23,7 +23,7 @@ INFO
    
    - Using: Chocolatey for install or update apps after
    
-   - Fucntion:
+   - Function:
        - Rename Computer + Join Computer To AD (Not Working yet)
        - Add Domain User Computer Administrator
        - Create Local User + Add local User Computer Administrator
