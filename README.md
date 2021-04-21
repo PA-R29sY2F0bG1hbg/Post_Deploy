@@ -4,7 +4,7 @@
 ![Post_Deploy_GUI](https://user-images.githubusercontent.com/18190054/65708528-13e17a80-e08f-11e9-9958-47d5aab71a66.png)
 Post_Deploy is a Powershell GUI which aims to personalize a computer after a deploying 
 
-#|: | Author:  Philippe-Alexandre Munch                           
+#|: | Author: Gold_Cattleman                           
 #| :| Email:   --------------------------------                   
 #|: | Purpose: Post_Deploy :)  in GUI Version                     
 #| :|                                                             
